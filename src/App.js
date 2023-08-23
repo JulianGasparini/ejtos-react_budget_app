@@ -1,5 +1,5 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.bcss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { AppProvider } from './context/AppContext';
 import Budget from './components/Budget';
@@ -24,7 +24,7 @@ const App = () => {
                     <div className='col-sm'>
                         <ExpenseTotal />
                     </div>
-                    <div className='col-sm'>
+                    <div id="currency" className='col-sm'>
                         <Currency />
                     </div>
                 </div>

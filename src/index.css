@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.currencybox {
+    background-color: #93E499;
+    border:1px;
+    border-color: green;
+    color: white;
+    padding: 16px;
+    height: auto;
+    font-weight: 400px;
+    border-radius: 0.375rem;
+    margin-bottom: 16px;
+    font-size:16px;
+    position: relative;
+    display:block;
+    box-sizing: border-box;
+    text-align: start;
+    line-height: 24px;
+}
+
+#inputGroupSelect04 {
+    border: 1px solid #93E499;
+    color:white;
+    background-color: transparent;
+}
+
+select.currency-select#inputGroupSelect04 option {
+    color: black;           /* Sets the font color */
+    background-color: #93E499; /* Sets the background color */
+}
+select.currency-select#inputGroupSelect04 option:hover {
+    color: black;           /* Sets the font color */
+    background-color: white; /* Sets the background color */
+}
+.currency-sign{
+    font-size: medium;
+    margin-left:15px;
+}
+
+.plusButton {
+  width: 30px;
+  height: 30px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 0;
+}
+
+.plusButton:hover {
+  background-color: #45a049;
+}
+
+.minusButton {
+  width: 30px;
+  height: 30px;
+  background-color: #FF0000; /* Red color */
+  border: none;
+  border-radius: 50%; /* Makes it round */
+  color: white; /* White minus sign */
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;  /* Vertical centering */
+  justify-content: center;  /* Horizontal centering */
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s; /* Smooth transition for hover effect */
+}
+
+.minusButton:hover {
+  background-color: #D80000; /* Slightly darker red on hover */
+}
